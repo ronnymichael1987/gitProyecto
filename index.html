@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+      <script type = "text/javascript" src="script/change.js"></script>
+   </head>
+<body>
+
+	<h1>Test</h1>
+
+
+	<form action="index.php" method="POST">
+		<input type="button" id="compra" onClick="switchBuy()" Value="Compra" > 
+		<input type="button" id="venta" onClick="switchSell()" Value="Venta" >
+		<br><br> <br> 
+		<input type="button" id="dollarTxt" Value="Dolares" > 
+		<input type="text" id="dollar" onkeyup="buyDollar1()"><br> <br> 
+		<input type="button" id="solesTxt" Value="Soles" >
+		<input type="text" id="sol" onkeyup="buyDollar2()"><br> <br> <br>
+	</form>
+
+</body>
+</html>
